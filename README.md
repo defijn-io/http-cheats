@@ -51,6 +51,8 @@ The server understood the request, but refuses to authorize it.
 The requested resource could not be found on the server.
 ### 405 Method Not Allowed:
 The method specified in the request is not allowed for the resource.
+### 422 Unprocessable Content
+Used when the server understands the content type of the request, and the syntax of the request is correct, but the server is unable to process the contained instructions.
 
 ## 5xx - Server errors
 
